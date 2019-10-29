@@ -1,0 +1,32 @@
+{
+  "name": "mustag",
+  "version": "0.0.1",
+  "description": "Mustache templating with custom HTML tags",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaogsleite/mustag.git"
+  },
+  "keywords": [
+    "mustache",
+    "custom",
+    "html",
+    "tags",
+    "html",
+    "components",
+    "templating"
+  ],
+  "author": "joaogsleite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaogsleite/mustag/issues"
+  },
+  "homepage": "https://github.com/joaogsleite/mustag#readme",
+  "dependencies": {
+    "handlebars": "^4.5.1",
+    "jsdom": "^15.2.0"
+  }
+}
