@@ -1,10 +1,13 @@
 {
   "name": "mustag",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mustache templating with custom HTML tags",
-  "main": "index.js",
+  "main": "./src/index.js",
+  "engines": {
+    "node": ">=9.11.1"
+  },
   "scripts": {
-    "start": "node build.js"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,9 @@
     "url": "https://github.com/joaogsleite/mustag/issues"
   },
   "homepage": "https://github.com/joaogsleite/mustag#readme",
+  "bin": {
+    "mustag": "./src/index.js"
+  },
   "dependencies": {
     "handlebars": "^4.5.1",
     "jsdom": "^15.2.0"
