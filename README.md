@@ -10,6 +10,68 @@
 
 CLI tool to parse html custom components with mustache sintax to pure html views
 
+
+## Example
+
+Place multiple HTML components inside a folder:
+
+* top-menu.html
+
+```
+<div class="top-menu">
+  <ul class="top-menu-items">
+    {{{children}}}
+  </ul>
+</div>
+```
+
+* menu-item.html
+
+```
+<li class="menu-item>
+  <a href="{{link}}">
+    {{name}}
+  </a>
+</li>
+```
+
+Create a view that uses the custom HTML components:
+
+
+```
+...
+<body>
+  <top-menu>
+    <menu-item link="/home" name="Home" />
+    <menu-item link="/profile" name="Profile" />
+  </top-menu>
+</body>
+...
+```
+
+Run this tool to parse your view and generate this HTML:
+
+```
+...
+<body>
+  <div class="top-menu">
+    <ul class="top-menu-items">
+      <li class="menu-item>
+        <a href="/home">
+          Home
+        </a>
+      </li>
+      <li class="menu-item>
+        <a href="/profile">
+          Profile
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+...
+```
+
 ## Install
 
 * inside your project 
