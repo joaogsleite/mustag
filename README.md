@@ -77,19 +77,19 @@ Run this tool to parse your view and generate this HTML:
 * inside your project 
 
 ```
-npm install --save-dev mustache
+npm install --save-dev mustag
 ```
 
 * globally
 
 ```
-npm install -g mustache
+npm install -g mustag
 ```
 
 ## Using
 
 ```
-mustache --components <path/to/components/folder> --views <path/to/views/folder> <path/to/dist/folder>
+mustag --components <path/to/components/folder> --views <path/to/views/folder> <path/to/dist/folder>
 ```
 
 * components folder should include sub-folders with the name of the components
@@ -102,7 +102,7 @@ mustache --components <path/to/components/folder> --views <path/to/views/folder>
 ...
 "scripts": {
   ...
-  "mustache": "mustache --components ./components --views ./views ./dist",
+  "mustag": "mustag --components ./components --views ./views ./dist",
   ...
 },
 ...

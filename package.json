@@ -1,6 +1,6 @@
 {
   "name": "mustag",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Mustache templating with custom HTML tags",
   "main": "./src/index.js",
   "engines": {
