@@ -1,15 +1,14 @@
 
 # Mustag
 
+CLI tool to parse html custom components with mustache sintax to pure html views
+
 ![node][node]
 [![npm version][npm-badge]][npm]
 [![dependencies Status][dependencies-badge]][dependencies]
 [![devDependencies Status][dev-dependencies-badge]][dev-dependencies]
 [![PRs Welcome][prs-badge]][prs]
 [![GitHub][license-badge]][license]
-
-CLI tool to parse html custom components with mustache sintax to pure html views
-
 
 ## Example
 
