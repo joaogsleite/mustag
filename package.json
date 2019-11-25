@@ -1,5 +1,7 @@
 {
   "name": "mustag",
+  "//name": "@joaogsleite/mustag",
+  "//publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "version": "0.0.5",
   "description": "Mustache templating with custom HTML tags",
   "main": "./src/index.js",
